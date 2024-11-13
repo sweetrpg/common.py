@@ -14,8 +14,9 @@ on:
             - "requirements/*.txt"
             - "docs/**"
     workflow_run:
-        workflows: ["update-python-reqs"]
+        workflows: ["Update Requirements"]
         types: [completed]
+    workflow_dispatch:
 
 jobs:
     tests:
