@@ -27,8 +27,8 @@ jobs:
             fail-fast: false
             matrix:
                 include:
-                    - name: linux,
-                      os: ubuntu-latest,
+                    - name: linux
+                      os: ubuntu-latest
 
         steps:
             - uses: actions/checkout@v4
