@@ -4,7 +4,7 @@ concurrency: python-ci
 
 on:
     push:
-        branches: [python]
+        branches: [develop]
         paths:
             - "src/**"
             - "tests/**"
