@@ -98,24 +98,24 @@ jobs:
             - uses: actions/checkout@v4
               with:
                 fetch-depth: 0
-            - name: Build a binary wheel and a source tarball
-              run: |
-                    python3 -m pip install build --user
-                    python3 -m build
-            - name: Store the distribution packages
-              uses: actions/upload-artifact@v4
-              with:
-                name: python-package-distributions
-                path: dist/
-            - name: publish
-              uses: pypa/gh-action-pypi-publish@release/v1
-            # - name: publish
-            #   uses: relekang/python-semantic-release@v7.34.6
+            # - name: Build a binary wheel and a source tarball
+            #   run: |
+            #         python3 -m pip install build --user
+            #         python3 -m build
+            # - name: Store the distribution packages
+            #   uses: actions/upload-artifact@v4
             #   with:
-            #     additional_options: "--patch"
-            #     github_token: ${{ secrets.GITHUB_TOKEN }}
-            #     repository_username: __token__
-            #     repository_password: ${{ secrets.PYPI_TOKEN }}
+            #     name: python-package-distributions
+            #     path: dist/
+            # - name: publish
+            #   uses: pypa/gh-action-pypi-publish@release/v1
+            - name: publish
+              uses: relekang/python-semantic-release@v7.34.6
+              with:
+                additional_options: "--patch"
+                github_token: ${{ secrets.GITHUB_TOKEN }}
+                repository_username: __token__
+                repository_password: ${{ secrets.PYPI_TOKEN }}
 
     notify:
         needs: [publish]
