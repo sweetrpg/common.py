@@ -163,7 +163,7 @@ sphinxcontrib-serializinghtml==2.0.0
     # via sphinx
 tox==4.24.1
     # via -r /home/runner/work/common.py/common.py/requirements/tests.in
-typer==0.15.1
+typer==0.15.2
     # via rstcheck
 typing-extensions==4.12.2
     # via
