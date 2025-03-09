@@ -58,7 +58,7 @@ imagesize==1.4.1
     # via sphinx
 iniconfig==2.0.0
     # via pytest
-jinja2==3.1.5
+jinja2==3.1.6
     # via sphinx
 markdown-it-py==3.0.0
     # via rich
@@ -161,7 +161,7 @@ sphinxcontrib-qthelp==2.0.0
     # via sphinx
 sphinxcontrib-serializinghtml==2.0.0
     # via sphinx
-tox==4.24.1
+tox==4.24.2
     # via -r /home/runner/work/common.py/common.py/requirements/tests.in
 typer==0.15.2
     # via rstcheck
@@ -172,7 +172,7 @@ typing-extensions==4.12.2
     #   typer
 urllib3==2.3.0
     # via requests
-virtualenv==20.29.2
+virtualenv==20.29.3
     # via tox
 wheel==0.45.1
     # via pip-tools

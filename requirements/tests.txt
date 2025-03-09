@@ -59,9 +59,9 @@ pytest-ordering==0.6
     # via -r requirements/tests.in
 python-dotenv==1.0.1
     # via -r requirements/tests.in
-tox==4.24.1
+tox==4.24.2
     # via -r requirements/tests.in
-virtualenv==20.29.2
+virtualenv==20.29.3
     # via tox
 
 # The following packages are considered to be unsafe in a requirements file:
