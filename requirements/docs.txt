@@ -39,7 +39,7 @@ packaging==24.2
     #   sphinx
 pallets-sphinx-themes==2.3.0
     # via -r requirements/docs.in
-pydantic==2.11.2
+pydantic==2.11.3
     # via rstcheck-core
 pydantic-core==2.33.1
     # via pydantic
@@ -90,7 +90,7 @@ sphinxcontrib-serializinghtml==2.0.0
     # via sphinx
 typer==0.15.2
     # via rstcheck
-typing-extensions==4.13.1
+typing-extensions==4.13.2
     # via
     #   pydantic
     #   pydantic-core
@@ -98,5 +98,5 @@ typing-extensions==4.13.1
     #   typing-inspection
 typing-inspection==0.4.0
     # via pydantic
-urllib3==2.3.0
+urllib3==2.4.0
     # via requests
