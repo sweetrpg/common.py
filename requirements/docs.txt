@@ -33,7 +33,7 @@ markupsafe==3.0.2
     # via jinja2
 mdurl==0.1.2
     # via markdown-it-py
-packaging==24.2
+packaging==25.0
     # via
     #   pallets-sphinx-themes
     #   sphinx
