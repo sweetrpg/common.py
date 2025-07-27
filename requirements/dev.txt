@@ -33,7 +33,7 @@ click==8.2.1
     #   typer
 colorama==0.4.6
     # via tox
-coverage[toml]==7.9.2
+coverage[toml]==7.10.0
     # via
     #   coverage-badge
     #   pytest-cov
@@ -123,7 +123,7 @@ python-dotenv==1.1.1
     # via -r /home/runner/work/common.py/common.py/requirements/tests.in
 requests==2.32.4
     # via sphinx
-rich==14.0.0
+rich==14.1.0
     # via typer
 rstcheck==6.2.5
     # via -r /home/runner/work/common.py/common.py/requirements/docs.in
@@ -161,7 +161,7 @@ sphinxcontrib-qthelp==2.0.0
     # via sphinx
 sphinxcontrib-serializinghtml==2.0.0
     # via sphinx
-tox==4.27.0
+tox==4.28.3
     # via -r /home/runner/work/common.py/common.py/requirements/tests.in
 typer==0.16.0
     # via rstcheck
@@ -175,7 +175,7 @@ typing-inspection==0.4.1
     # via pydantic
 urllib3==2.5.0
     # via requests
-virtualenv==20.31.2
+virtualenv==20.32.0
     # via tox
 wheel==0.45.1
     # via pip-tools
