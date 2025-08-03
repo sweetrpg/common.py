@@ -14,7 +14,7 @@ chardet==5.2.0
     # via tox
 colorama==0.4.6
     # via tox
-coverage[toml]==7.10.0
+coverage[toml]==7.10.1
     # via
     #   coverage-badge
     #   pytest-cov
@@ -59,7 +59,7 @@ pytest-ordering==0.6
     # via -r requirements/tests.in
 python-dotenv==1.1.1
     # via -r requirements/tests.in
-tox==4.28.3
+tox==4.28.4
     # via -r requirements/tests.in
 virtualenv==20.32.0
     # via tox
