@@ -88,7 +88,7 @@ sphinxcontrib-qthelp==2.0.0
     # via sphinx
 sphinxcontrib-serializinghtml==2.0.0
     # via sphinx
-typer==0.17.3
+typer==0.17.4
     # via rstcheck
 typing-extensions==4.15.0
     # via
