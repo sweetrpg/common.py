@@ -55,7 +55,7 @@ pytest==8.4.2
     #   pytest-ordering
 pytest-cov==4.1.0
     # via -r requirements/tests.in
-pytest-env==1.1.3
+pytest-env==1.1.5
     # via -r requirements/tests.in
 pytest-ordering==0.6
     # via -r requirements/tests.in
