@@ -51,7 +51,5 @@ jobs:
                   key: pip|${{ runner.os }}|${{ steps.get_lang_version.outputs.lang_version }}|${{ hashFiles('setup.py') }}|${{ hashFiles('requirements/*.txt') }}
             - name: install-utils
               run: pip install tox
-            # - name: lint
-            #   run: black --check -t ${{ steps.get_lang_version.outputs.tox_env }} --diff --color src
             - name: tests
               run: tox -e ${{ steps.get_lang_version.outputs.tox_env }}

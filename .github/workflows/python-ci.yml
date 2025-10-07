@@ -124,35 +124,35 @@ jobs:
             fail-fast: false
             matrix:
                 include:
-                    - repo: api-core
-                    - repo: catalog-api
-                    - repo: catalog-data
-                    - repo: catalog-data-processor
-                    - repo: catalog-objects
-                    - repo: catalog-web
-                    - repo: client
-                    - repo: data-api
-                    - repo: data-objects
-                    - repo: db
-                    - repo: initiative-api
-                    - repo: initiative-data
-                    - repo: initiative-objects
-                    - repo: initiative-web
-                    - repo: kv-api
-                    - repo: kv-data
-                    - repo: kv-expression-processor
-                    - repo: kv-key-processor
-                    - repo: kv-objects
-                    - repo: kv-value-calculator
-                    - repo: kv-web
-                    - repo: library-api
-                    - repo: library-data
-                    - repo: library-objects
-                    - repo: library-web
-                    - repo: main-web
-                    - repo: model-core
-                    - repo: shared-web
-                    - repo: web-core
+                    - repo: api-core.py
+                    - repo: catalog-api.py
+                    - repo: catalog-data.py
+                    - repo: catalog-data-processor.py
+                    - repo: catalog-objects.py
+                    - repo: catalog-web.py
+                    - repo: client.py
+                    - repo: data-api.py
+                    - repo: data-objects.py
+                    - repo: db.py
+                    - repo: initiative-api.py
+                    - repo: initiative-data.py
+                    - repo: initiative-objects.py
+                    - repo: initiative-web.py
+                    - repo: kv-api.py
+                    - repo: kv-data.py
+                    - repo: kv-expression-processor.py
+                    - repo: kv-key-processor.py
+                    - repo: kv-objects.py
+                    - repo: kv-value-calculator.py
+                    - repo: kv-web.py
+                    - repo: library-api.py
+                    - repo: library-data.py
+                    - repo: library-objects.py
+                    - repo: library-web.py
+                    - repo: main-web.py
+                    - repo: model-core.py
+                    - repo: shared-web.py
+                    - repo: web-core.py
         steps:
             - uses: juztcode/repo-ditpatch-action@v1
               continue-on-error: true
