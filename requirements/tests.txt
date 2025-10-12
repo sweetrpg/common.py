@@ -24,7 +24,7 @@ distlib==0.4.0
     # via virtualenv
 dnspython==2.8.0
     # via -r requirements/tests.in
-filelock==3.19.1
+filelock==3.20.0
     # via
     #   tox
     #   virtualenv
@@ -35,7 +35,7 @@ packaging==25.0
     #   pyproject-api
     #   pytest
     #   tox
-platformdirs==4.4.0
+platformdirs==4.5.0
     # via
     #   tox
     #   virtualenv
@@ -46,7 +46,7 @@ pluggy==1.6.0
     #   tox
 pygments==2.19.2
     # via pytest
-pyproject-api==1.9.1
+pyproject-api==1.10.0
     # via tox
 pytest==8.4.2
     # via
@@ -56,15 +56,15 @@ pytest==8.4.2
     #   pytest-ordering
 pytest-cov==7.0.0
     # via -r requirements/tests.in
-pytest-env==1.1.5
+pytest-env==1.2.0
     # via -r requirements/tests.in
 pytest-ordering==0.6
     # via -r requirements/tests.in
 python-dotenv==1.1.1
     # via -r requirements/tests.in
-tox==4.30.3
+tox==4.31.0
     # via -r requirements/tests.in
-virtualenv==20.34.0
+virtualenv==20.35.3
     # via tox
 
 # The following packages are considered to be unsafe in a requirements file:
