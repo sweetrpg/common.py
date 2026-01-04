@@ -1,7 +1,7 @@
 -r pkg.in
 Pallets-Sphinx-Themes
 sphinx-issues
-Sphinx~=8.0
+Sphinx~=9.0
 sphinxcontrib-log-cabinet
 sphinx-tabs
 rstcheck
