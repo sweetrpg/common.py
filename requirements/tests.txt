@@ -62,7 +62,7 @@ pytest-ordering==0.6
     # via -r requirements/tests.in
 python-dotenv==1.2.1
     # via -r requirements/tests.in
-tox==4.35.0
+tox==4.36.0
     # via -r requirements/tests.in
 virtualenv==20.36.1
     # via tox
