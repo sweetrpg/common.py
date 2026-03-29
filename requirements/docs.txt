@@ -50,7 +50,7 @@ pygments==2.19.2
     #   rich
     #   sphinx
     #   sphinx-tabs
-requests==2.32.5
+requests==2.33.0
     # via sphinx
 rich==14.3.3
     # via typer
