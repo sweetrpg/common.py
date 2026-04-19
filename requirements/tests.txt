@@ -22,14 +22,14 @@ distlib==0.4.0
     # via virtualenv
 dnspython==2.8.0
     # via -r requirements/tests.in
-filelock==3.25.2
+filelock==3.28.0
     # via
     #   python-discovery
     #   tox
     #   virtualenv
 iniconfig==2.3.0
     # via pytest
-packaging==26.0
+packaging==26.1
     # via
     #   pyproject-api
     #   pytest
@@ -68,9 +68,9 @@ python-dotenv==1.2.2
     # via -r requirements/tests.in
 tomli-w==1.2.0
     # via tox
-tox==4.52.1
+tox==4.53.0
     # via -r requirements/tests.in
-virtualenv==21.2.1
+virtualenv==21.2.4
     # via tox
 
 # The following packages are considered to be unsafe in a requirements file:
