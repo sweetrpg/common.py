@@ -16,14 +16,14 @@ certifi==2026.4.22
     # via requests
 charset-normalizer==3.4.7
     # via requests
-click==8.3.3
+click==8.4.0
     # via typer
 docutils==0.22.4
     # via
     #   rstcheck-core
     #   sphinx
     #   sphinx-tabs
-idna==3.13
+idna==3.15
     # via requests
 imagesize==2.0.0
     # via sphinx
@@ -50,7 +50,7 @@ pygments==2.20.0
     #   rich
     #   sphinx
     #   sphinx-tabs
-requests==2.33.1
+requests==2.34.2
     # via sphinx
 rich==15.0.0
     # via typer
