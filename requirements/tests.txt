@@ -18,11 +18,11 @@ coverage[toml]==7.14.1
     #   pytest-cov
 coverage-badge==1.1.2
     # via -r requirements/tests.in
-distlib==0.4.0
+distlib==0.4.1
     # via virtualenv
 dnspython==2.8.0
     # via -r requirements/tests.in
-filelock==3.29.0
+filelock==3.29.1
     # via
     #   python-discovery
     #   tox
@@ -70,9 +70,9 @@ python-dotenv==1.2.2
     #   pytest-env
 tomli-w==1.2.0
     # via tox
-tox==4.55.0
+tox==4.55.1
     # via -r requirements/tests.in
-virtualenv==21.4.1
+virtualenv==21.4.2
     # via tox
 
 # The following packages are considered to be unsafe in a requirements file:
