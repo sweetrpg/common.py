@@ -92,7 +92,7 @@ sphinxcontrib-serializinghtml==2.0.0
     # via sphinx
 typer==0.26.8
     # via rstcheck
-typing-extensions==4.15.0
+typing-extensions==4.16.0
     # via
     #   pydantic
     #   pydantic-core
