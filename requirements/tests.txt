@@ -8,7 +8,7 @@ asgiref==3.12.1
     # via -r requirements/tests.in
 blinker==1.9.0
     # via -r requirements/tests.in
-cachetools==7.1.7
+cachetools==7.1.8
     # via tox
 colorama==0.4.6
     # via tox
@@ -22,7 +22,7 @@ distlib==0.4.3
     # via virtualenv
 dnspython==2.8.0
     # via -r requirements/tests.in
-filelock==3.32.4
+filelock==3.32.5
     # via
     #   python-discovery
     #   tox
@@ -34,7 +34,7 @@ packaging==26.3
     #   pyproject-api
     #   pytest
     #   tox
-platformdirs==4.11.5
+platformdirs==4.11.7
     # via
     #   tox
     #   virtualenv
@@ -69,11 +69,11 @@ python-dotenv==1.2.3
     #   pytest-env
 tomli-w==1.2.0
     # via tox
-tox==4.61.1
+tox==4.61.2
     # via -r requirements/tests.in
 typing-extensions==4.16.0
     # via tox
-virtualenv==21.7.7
+virtualenv==21.7.8
     # via tox
 
 # The following packages are considered to be unsafe in a requirements file:
